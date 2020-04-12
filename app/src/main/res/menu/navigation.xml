@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/message"
+            android:icon="@drawable/ic_message"
+            android:title="Message" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/calls"
+            android:icon="@drawable/ic_calls"
+            android:title="Calls" />
+
+        <item
+            android:id="@+id/favorite"
+            android:icon="@drawable/ic_favorite"
+            android:title="Favorite"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Profile Settings" />
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:title="Share app"
+                android:icon="@drawable/ic_share"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/rate"
+                android:title="Rate app"
+                android:icon="@drawable/ic_rate"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
